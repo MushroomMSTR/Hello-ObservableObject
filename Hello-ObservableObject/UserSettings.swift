@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-class UserSetting: ObservableObject {
+class UserSettings: ObservableObject {
 	
 	@Published var score: Int = 0
 }
